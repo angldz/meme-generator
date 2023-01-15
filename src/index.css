@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.body{
+  display: flex;
+  width: 550px;
+  height: 550px;
+  background-color: white;
+}
+
+.header{
+  display: flex;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.whole-logo{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.whole-logo .logo-pic{
+  height: 26.22px;
+  margin-right: 5px;
+}
+
+.whole-logo .logo-name{
+  display: flex;
+  justify-items: center;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.title{
+  align-items: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 15px;
+  text-align: right;
+  color: #FFFFFF;
+  margin-right: 30px;
+}
+
+.meme-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.input-left{
+  margin-right: 20px;
+  width: 48%;
+  height: 35px;
+  border: 1px solid #D5D4D8;
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.1));
+  border-radius: 4px;
+
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #0D0D0D;
+
+}
+
+
+.input-right{
+  width: 48%;
+  height: 35px;
+  border: 1px solid #D5D4D8;
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.1));
+  border-radius: 4px;
+
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: #0D0D0D;
+
+}
+
+.button-container{
+  display: flex;
+  height: 40px;
+  padding: 0 20px
+}
+
+.button-container button {
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border-radius: 5px;
+
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+  color: #FFFFFF;
+
+  border: 0;
+  width: 100%;
+
+  cursor: pointer;
+}
+
+.meme-image{
+  padding: 30px;
+}
+
+.meme-image > img{
+  width: 100%;
+  border-radius: 10px;
+  transition: filter .1s ease-in-out;
+}
+
+.meme-image > img:hover {
+  filter: brightness(50%);
+}
